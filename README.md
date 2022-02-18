@@ -18,8 +18,8 @@ createFile filename filesize  ---  create a new file
 
 deleteFile filename ---  delete a file
 ![deleteFile](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/deleteFile.png>)
-cp original_file_name new_file_name   ---  cp a directory file to another directory or file
 
+cp original_file_name new_file_name   ---  cp a directory file to another directory or file
 ![cp](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/cp.png>)
 
 cat filename      ---  read a file
