@@ -7,19 +7,28 @@ This file system supports the following commands:
 
 createDir /dirname  ---  create a new file
 ![createDir](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/createDir.png>)
+
 deleteDir /dirname   ---  delete a directory
 ![deleteDir](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/deleteDir.png>)
+
 cd /dirname ---  change working directory
+
 createFile filename filesize  ---  create a new file
 ![createFile](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/createFile.png>)
+
 deleteFile filename ---  delete a file
 ![deleteFile](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/deleteFile.png>)
 cp original_file_name new_file_name   ---  cp a directory file to another directory or file
+
 ![cp](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/cp.png>)
+
 cat filename      ---  read a file
 ![cat](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/cat.png>)
+
 sum ---  display memory usage
+
 exit --- exit the program, release the memory occupied and store all data into the disk
+
 reload --- get the data from the disk
 ![reload](<https://github.com/zixin-zhou98/Inode-based-Unix-style-File-System/blob/main/pictures/reload.png>)
 
